@@ -612,16 +612,24 @@ a:focus, a:hover {
 
 .hero-area .block h1 {
   font-size: 90px;
-  color: #fff;
+  color: #00061c;
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 0px;
 }
 
+.hero-area .nav-button .btn{
+  background: #fff;
+  border-color: #00585a;
+
+}
+
 .hero-area .nav-button .btn-transparent{
   margin-top: 0px;
   border-color: #fff;
-  padding: 14px 50px;
+  background: #fff;
+  color:#00585a;
+  padding: 20px 50px;
   font-size: 18px;
   font-size: 16px;
   font-weight: bold;
@@ -631,12 +639,12 @@ a:focus, a:hover {
 
 
 .hero-area .nav-button .btn:hover {
-  background: #2c9091;
-  color: #fff;
+  background: #00585a;
+  color: #00585a;
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
-  padding: 10px 35px;
+  padding: 20px 35px;
 }
 
 @media (max-width: 480px) {
@@ -655,10 +663,11 @@ a:focus, a:hover {
 }
 
 .hero-area .nav-button .btn-transparent{
-  background: #2c9091;
-  border-radius:10px;
+  background: #fff;
+
+  border-radius:4px;
   margin-top: 0px;
-  border-color: #fff;
+  border-color:#00585a;
   font-size: 18px;
   font-size: 16px;
   font-weight: bold;
@@ -668,11 +677,11 @@ a:focus, a:hover {
 
 
 .hero-area .nav-button .btn:hover {
-  background: #1e6369;
+  background: #00585a;
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
-  padding: 14px 50px;
+  padding: 20px 50px;
 }
 
 
