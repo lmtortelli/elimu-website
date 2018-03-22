@@ -113,8 +113,9 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #00585a;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  width: 20px;
+  height: 50px;
+  transform: rotate(-20deg);
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -167,9 +168,11 @@ img::-moz-selection {
 
 /*---- header ----*/
 header.masthead {
+  height: 100vh;
+  
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/background-logo.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -179,9 +182,35 @@ header.masthead {
   background-size: cover;
 }
 
+
+header.masthead .nav-button .btn-transparent{
+  margin-top: 80px;
+  margin-right: 90px;
+  border-color: #fff;
+  padding: 14px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+header.masthead .nav-button .btn:hover {
+  background: #2c9091;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 14px 50px;
+}
+
 header.masthead .head-logo .logo{
-	width: 30%;
-  height: 30%;
+	width: 75%;
+  height: 75%;
+  margin-top: 200px;
+  position: relative;
+	display: inline-block;
+	margin-left:auto;
+  margin-right: auto;
 }
 
 header.masthead .intro-text {
