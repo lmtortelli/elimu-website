@@ -86,7 +86,7 @@ a:focus, a:hover {
   color: #fff;
   padding: 10px 30px;
   border-radius: 0;
-  transition: all .3s ease-in 0s;
+  transition: all .2s ease-in 0s;
 }
 
 .btn:focus {
@@ -247,7 +247,7 @@ a:focus, a:hover {
 }
 
 .btn-main {
-  background: #57cbcc;
+  background: #009585;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -257,7 +257,7 @@ a:focus, a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #00585a;
   color: #fff;
 }
 
@@ -621,22 +621,19 @@ a:focus, a:hover {
 .hero-area .nav-button .btn{
   background: #fff;
   border-color: #00585a;
-
 }
 
 .hero-area .nav-button .btn-transparent{
   margin-top: 0px;
   border-color: #fff;
   background: #fff;
-  color:#00585a;
-  padding: 20px 50px;
+  color:#fff;
+  padding: 20px 45px;
   font-size: 18px;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
 }
-
-
 
 .hero-area .nav-button .btn:hover {
   background: #00585a;
@@ -663,9 +660,8 @@ a:focus, a:hover {
 }
 
 .hero-area .nav-button .btn-transparent{
-  background: #fff;
-
-  border-radius:4px;
+  background: #009585;
+  border-radius:3px;
   margin-top: 0px;
   border-color:#00585a;
   font-size: 18px;
@@ -678,6 +674,7 @@ a:focus, a:hover {
 
 .hero-area .nav-button .btn:hover {
   background: #00585a;
+  border-color: #fff;
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
@@ -703,8 +700,8 @@ a:focus, a:hover {
 }
 
 .hero-area .block .main-logo {
-	width: 60%;
-  height: 60%;
+	width: 75%;
+  height: 75%;
   margin-top:auto;
   	position: relative;
 	display: inline-block;
