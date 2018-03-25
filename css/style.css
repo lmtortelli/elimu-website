@@ -578,6 +578,12 @@ a:focus, a:hover {
   background-attachment: fixed;
 }
 
+.bg-3 {
+  background-image: url("../images/backgrounds/bg-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero-area {
   background-image: url("../images/slider/hero-area.jpg");
   background-size: cover;
@@ -651,7 +657,6 @@ a:focus, a:hover {
   
 }
 
-
 .hero-area .nav-button {
   position: relative;
   z-index: 0;
@@ -661,7 +666,7 @@ a:focus, a:hover {
 
 .hero-area .nav-button .btn-transparent{
   background: #009585;
-  border-radius:3px;
+  border-radius:0;
   margin-top: 0px;
   border-color:#00585a;
   font-size: 18px;
@@ -949,6 +954,7 @@ a:focus, a:hover {
   font-weight: bold;
   font-size: 35px;
   line-height: 50px;
+  color: #57cbcc;
 }
 
 .counters-item h3 {
@@ -1042,17 +1048,17 @@ a:focus, a:hover {
   transition: all 0.3s ease-in-out;
   background: white;
   opacity: 0;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  left: 50px;
   position: absolute;
   content: '';
 }
 
 .portfolio-block img {
-  width: 100%;
-  height: auto;
+  width: 380px;
+  height: 380px;
 }
 
 .portfolio-block:hover:before {
