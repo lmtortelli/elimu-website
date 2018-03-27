@@ -624,32 +624,6 @@ a:focus, a:hover {
   margin-bottom: 0px;
 }
 
-.hero-area .nav-button .btn{
-  background: #fff;
-  border-color: #00585a;
-}
-
-.hero-area .nav-button .btn-transparent{
-  margin-top: 0px;
-  border-color: #fff;
-  background: #fff;
-  color:#fff;
-  padding: 20px 45px;
-  font-size: 18px;
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.hero-area .nav-button .btn:hover {
-  background: #00585a;
-  color: #00585a;
-  display: inline-block;
-  font-size: 14px;
-  letter-spacing: 1px;
-  padding: 20px 35px;
-}
-
 @media (max-width: 480px) {
   .hero-area .block h1 {
     font-size: 60px;
@@ -667,23 +641,17 @@ a:focus, a:hover {
 .hero-area .nav-button .btn-transparent{
   background: #009585;
   border-radius:0;
-  margin-top: 0px;
   border-color:#00585a;
-  font-size: 18px;
   font-size: 16px;
-  font-weight: bold;
   letter-spacing: 1px;
 }
-
-
 
 .hero-area .nav-button .btn:hover {
   background: #00585a;
   border-color: #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
-  padding: 20px 50px;
 }
 
 
@@ -796,6 +764,11 @@ a:focus, a:hover {
   padding: 40px;
 }
 
+.about-2 .content-block p{
+  text-align: justify;
+  font-size: 16px;
+}
+
 .about-2 .content-block .media {
   margin-top: 25px;
 }
@@ -896,6 +869,7 @@ a:focus, a:hover {
 
 .contact-info p {
   margin-bottom: 25px;
+  font-size: 16px;  
 }
 
 .con-info {
@@ -909,6 +883,7 @@ a:focus, a:hover {
 
 .con-info span {
   margin: -5px 0 0 15px;
+  font-size: 16px;
 }
 
 .error {
@@ -941,6 +916,7 @@ a:focus, a:hover {
   padding: 25px 0;
   margin-bottom: 10px;
   background: #292F36;
+  opacity: 0.9;
 }
 
 .counters-item i {
