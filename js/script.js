@@ -192,7 +192,7 @@ jQuery(function ($) { "use strict";
 
 	function initialize() {
 
-		var myLatLng = new google.maps.LatLng(22.333851, 91.812256);
+		var myLatLng = new google.maps.LatLng(-31.78102101, -52.32365795);
 
 		var roadAtlasStyles = [{
 			"featureType": "landscape",
@@ -265,14 +265,14 @@ jQuery(function ($) { "use strict";
 		}];
 
 		var mapOptions = {
-			zoom: 14,
+			zoom: 15,
 			center: myLatLng,
-			disableDefaultUI: true,
-			scrollwheel: false,
-			navigationControl: false,
+			disableDefaultUI: false,
+			scrollwheel: true,
+			navigationControl: true,
 			mapTypeControl: false,
-			scaleControl: false,
-			draggable: false,
+			scaleControl: true,
+			draggable: true,
 			mapTypeControlOptions: {
 				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'roadatlas']
 			}
@@ -293,7 +293,7 @@ jQuery(function ($) { "use strict";
 		});
 
 		var styledMapOptions = {
-			name: 'US Road Atlas'
+			name: 'Elimu Social'
 		};
 
 		var usRoadMapType = new google.maps.StyledMapType(
