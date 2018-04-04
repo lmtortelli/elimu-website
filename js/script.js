@@ -166,6 +166,7 @@ jQuery(function ($) { "use strict";
 // End Jquery Function
 
 
+
 $('#btnAll').click(function() {
 	ecobags(false);
 	camisetas(false);
@@ -174,42 +175,58 @@ $('#btnAll').click(function() {
 
 $('#btnEco').click(function() {
 	ecobags(false);
+	camisetas(true);
+	blusas(true);
 });
 
 $('#btnCamiseta').click(function() {
+	ecobags(true);
 	camisetas(false);
+	blusas(true);
 });
 
 $('#btnBlusa').click(function() {
+	ecobags(true);
+	camisetas(true);
 	blusas(false);
 });
 
 
 
 function ecobags(hidden){
-	if(!hidden){
-		var listEcoBags = document.querySelectorAll('[id^="eco"]')
-		for (let ecobag of listEcoBags){
+	var listEcoBags = document.querySelectorAll('[id^="eco"]')
+	for (ecobag in listEcoBags){
+		if(!hidden){
 			ecobag.style.display = "inline";
+		}
+		else{
+			ecobag.style.display = "none";
 		}
 	}
 }
 
 function camisetas(hidden){
-	if(!hidden){
-		var listCamisetas = document.querySelectorAll('[id^="cami"]')
-		for (camiseta in listCamisetas){
-			camisetas.tyle.display = "inline";
+	var listCamisetas = document.querySelectorAll('[id^="cami"]')
+	for (camiseta in listCamisetas){
+		if(!hidden){
+			camiseta.style.display = "inline";
+		}
+		else{
+			camiseta.style.display = "none";
 		}
 	}
+
 }
 
 
 function blusas(hidden){
-	if(!hidden){
-		var listBlusas = document.querySelectorAll('[id^="blusa-"]')
-		for (blusa in listBlusas){
+	var listBlusas = document.querySelectorAll('[id^="blus"]')
+	for (blusa in listBlusas){
+		if(!hidden){
 			blusa.style.display = "inline";
+		}
+		else{
+			blusa.style.display = "none";
 		}
 	}
 }
