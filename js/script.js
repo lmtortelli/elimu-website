@@ -166,6 +166,57 @@ jQuery(function ($) { "use strict";
 // End Jquery Function
 
 
+$('#btnAll').click(function() {
+	ecobags(false);
+	camisetas(false);
+	blusas(false);
+});
+
+$('#btnEco').click(function() {
+	ecobags(false);
+});
+
+$('#btnCamiseta').click(function() {
+	camisetas(false);
+});
+
+$('#btnBlusa').click(function() {
+	blusas(false);
+});
+
+
+
+function ecobags(hidden){
+	if(!hidden){
+		var listEcoBags = document.querySelectorAll('[id^="eco"]')
+		for (let ecobag of listEcoBags){
+			ecobag.style.display = "inline";
+		}
+	}
+}
+
+function camisetas(hidden){
+	if(!hidden){
+		var listCamisetas = document.querySelectorAll('[id^="cami"]')
+		for (camiseta in listCamisetas){
+			camisetas.tyle.display = "inline";
+		}
+	}
+}
+
+
+function blusas(hidden){
+	if(!hidden){
+		var listBlusas = document.querySelectorAll('[id^="blusa-"]')
+		for (blusa in listBlusas){
+			blusa.style.display = "inline";
+		}
+	}
+}
+
+
+
+
 	/* ========================================================================= */
 	/*	Animated section
 	/* ========================================================================= */
