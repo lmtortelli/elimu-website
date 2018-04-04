@@ -808,7 +808,6 @@ a:focus, a:hover {
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
 }
 
 .call-to-action p {
@@ -1108,6 +1107,11 @@ a:focus, a:hover {
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
+.service-block p {
+  color: #afbac4;
+  font-size: 15px;
+}
+
 .service-block .service-icon {
   margin-bottom: 10px;
   font-size: 50px;
@@ -1148,122 +1152,6 @@ a:focus, a:hover {
   transition: all 0.3s ease 0s;
 }
 
-/*=================================================================
-  Our skills
-==================================================================*/
-.skill-bar p {
-  font-size: 18px;
-  margin-bottom: 0;
-}
-
-.skill-bar p span {
-  font-style: italic;
-  font-size: 30px;
-  color: rgba(187, 187, 187, 0.34);
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.skill-bar .progress {
-  height: 6px;
-  border-radius: 0;
-}
-
-.skill-bar .progress .progress-bar {
-  background: #57cbcc;
-}
-
-/*=================================================================
-  Our Team
-==================================================================*/
-.team-member {
-  background-color: #292F36;
-  margin-bottom: 10px;
-}
-
-.team-member:hover .mask {
-  cursor: pointer;
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: rotateY(0deg) scale(1, 1);
-          transform: rotateY(0deg) scale(1, 1);
-}
-
-.member-photo {
-  overflow: hidden;
-  position: relative;
-}
-
-@media (max-width: 768px) {
-  .member-photo {
-    text-align: center;
-  }
-}
-
-.member-photo:hover img {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.member-photo img {
-  transition: all 0.4s ease 0s;
-}
-
-@media (max-width: 768px) {
-  .member-photo img {
-    display: inline-block;
-  }
-}
-
-.member-photo .mask {
-  background-color: rgba(87, 203, 204, 0.7);
-  position: absolute;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  transition: all .5s ease-out 0s;
-  -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
-          transform: rotateY(180deg) scale(0.5, 0.5);
-}
-
-.member-photo .mask ul {
-  text-align: center;
-  position: relative;
-  top: 125px;
-}
-
-.member-photo .mask ul li a {
-  border: 1px solid #fff;
-  color: #fff;
-  display: block;
-  font-size: 20px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  width: 35px;
-}
-
-.member-photo .mask ul li a:hover {
-  background-color: #fff;
-  color: #57cbcc;
-  border: 1px solid transparent;
-}
-
-.member-meta {
-  padding: 15px;
-}
-
-.member-meta h4 {
-  margin: 0 0 5px;
-}
-
-.member-meta span {
-  font-size: 12px;
-}
 
 /*=================================================================
   Testimonial section
@@ -1287,6 +1175,7 @@ a:focus, a:hover {
 }
 
 .testimonial .block .icon-box {
+  color: #57cbcc;
   position: relative;
   width: 160px;
   height: 92.38px;
