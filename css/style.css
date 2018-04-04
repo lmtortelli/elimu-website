@@ -417,7 +417,7 @@ a:focus, a:hover {
 }
 
 .title h2 {
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   font-size: 38px;
   color: #fff;
@@ -761,12 +761,12 @@ a:focus, a:hover {
   About us 2 section
 ==================================================================*/
 .about-2 .content-block {
-  padding: 40px;
+  padding: 30px;
 }
 
 .about-2 .content-block p{
   text-align: justify;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .about-2 .content-block .media {
@@ -916,7 +916,7 @@ a:focus, a:hover {
   padding: 25px 0;
   margin-bottom: 10px;
   background: #292F36;
-  opacity: 0.9;
+  opacity: 0.88;
 }
 
 .counters-item i {
@@ -1314,10 +1314,15 @@ a:focus, a:hover {
   border-left: 2px solid rgba(236, 239, 241, 0.07);
 }
 
-.testimonial .block .icon-box h3 {
+.testimonial .block .content h3 {
   color: #afbac4;
 }
 
+.testimonial .block .content p {
+  color: #afbac4;
+  font-size: 15px;
+  text-align: justify;
+}
 
 .testimonial:before {
   background: rgba(42, 48, 55, 0.7);
