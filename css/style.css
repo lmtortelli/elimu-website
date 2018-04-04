@@ -764,7 +764,12 @@ a:focus, a:hover {
   padding: 30px;
 }
 
+.about-2 .content-block h2{
+  color: #57cbcc;
+}
+
 .about-2 .content-block p{
+  color: #afbac4;
   text-align: justify;
   font-size: 15px;
 }
@@ -783,6 +788,7 @@ a:focus, a:hover {
 }
 
 .about-2 .content-block .media h4 {
+  color: #57cbcc;
   font-size: 16px;
   font-weight: 600;
 }
@@ -1321,7 +1327,7 @@ a:focus, a:hover {
 .testimonial .block .content p {
   color: #afbac4;
   font-size: 15px;
-  text-align: justify;
+  text-align: center;
 }
 
 .testimonial:before {
