@@ -584,6 +584,12 @@ a:focus, a:hover {
   background-size: cover;
 }
 
+.bg-store {
+  background-image: url("../images/backgrounds/bg-store.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero-area {
   background-image: url("../images/slider/hero-area.jpg");
   background-size: cover;
