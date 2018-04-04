@@ -621,7 +621,6 @@ a:focus, a:hover {
   z-index: 99;
 }
 
-
 .hero-area .block h1 {
   font-size: 90px;
   color: #00061c;
@@ -890,6 +889,11 @@ a:focus, a:hover {
 .con-info i,
 .con-info span {
   float: left;
+}
+
+.con-info i{
+  color: #57cbcc;
+  font-size: 17px;
 }
 
 .con-info span {
