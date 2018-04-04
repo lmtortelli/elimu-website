@@ -1111,6 +1111,7 @@ a:focus, a:hover {
 .service-block .service-icon {
   margin-bottom: 10px;
   font-size: 50px;
+  color: #57cbcc;
 }
 
 /*=================================================================
@@ -1960,6 +1961,10 @@ aside.widget {
 
 .tab-excerpt h4 a {
   color: #fff;
+}
+
+.clearfix .content h3{
+  text-transform: none;
 }
 
 .tab-excerpt h4 a:hover {
