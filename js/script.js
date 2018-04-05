@@ -324,7 +324,7 @@ function blusas(hidden){
 		}];
 
 		var mapOptions = {
-			zoom: 15,
+			zoom: 13,
 			center: myLatLng,
 			disableDefaultUI: false,
 			scrollwheel: true,
