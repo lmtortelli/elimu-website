@@ -61,7 +61,8 @@ jQuery(function ($) { "use strict";
 	/*	Portfolio Filtering Hook
 	/* =========================================================================  */
 
-  	var mixer = mixitup('.portfolio-items-wrapper');
+	// PORTFOLIO
+  	//var mixer = mixitup('.portfolio-items-wrapper');
 
 	/* ========================================================================= */
 	/*	Testimonial Carousel

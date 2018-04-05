@@ -1,6 +1,6 @@
 <?php
 
-$to = 'contato@elimusocial.com.br';
+$to = 'socialelimu@gmail.com';
 $subject = 'Contato - Elimu Website -'.$_POST['name'];;
 $message = $_POST['message'];
 $headers = 'From: '.$_POST['email']. "\r\n" .
