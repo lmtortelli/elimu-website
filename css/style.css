@@ -1577,7 +1577,7 @@ a:focus, a:hover {
   Footer section
 ==================================================================*/
 .social-icon {
-  padding: 60px 0 35px;
+  padding: 50px 0 35px;
 }
 
 .social-icon ul {
@@ -1621,7 +1621,7 @@ a:focus, a:hover {
 }
 
 .social-icon ul li a i {
-  color: #55606a;
+  color: #fff;
   display: inline-block;
   font-size: 32px;
   line-height: 70px;
