@@ -886,20 +886,18 @@ a:focus, a:hover {
   margin-bottom: 20px;
 }
 
-.con-info i,
 .con-info span {
-  float: left;
+  margin: -5px 0 0 15px;
+  font-size: 22px;
+  color: #fff;
 }
 
 .con-info i{
+  float: left;
   color: #57cbcc;
-  font-size: 17px;
+  font-size: 22px;
 }
 
-.con-info span {
-  margin: -5px 0 0 15px;
-  font-size: 16px;
-}
 
 .error {
   display: none;

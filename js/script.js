@@ -85,7 +85,7 @@ jQuery(function ($) { "use strict";
 
 
 	$('#contact-submit').click(function (e) {
-
+		alert("Comecou");
 		//stop the form from being submitted
 		e.preventDefault();
 
@@ -94,9 +94,7 @@ jQuery(function ($) { "use strict";
 		var error = false;
 		var name = $('#name').val();
 		var email = $('#email').val();
-		var subject = $('#subject').val();
 		var message = $('#message').val();
-
 		/* in the next section we do the checking by using VARIABLE.length
 		where VARIABLE is the variable we are checking (like name, email),
 		length is a JavaScript function to get the number of characters.
@@ -120,18 +118,13 @@ jQuery(function ($) { "use strict";
 		} else {
 			$('#email').css("border-color", "#666");
 		}
-		if (subject.length == 0) {
-			var error = true;
-			$('#subject').css("border-color", "#D8000C");
-		} else {
-			$('#subject').css("border-color", "#666");
-		}
 		if (message.length == 0) {
 			var error = true;
 			$('#message').css("border-color", "#D8000C");
 		} else {
 			$('#message').css("border-color", "#666");
 		}
+
 
 		//now when the validation is done we check if the error variable is false (no errors)
 		if (error == false) {
@@ -145,7 +138,8 @@ jQuery(function ($) { "use strict";
 			/* using the jquery's post(ajax) function and a lifesaver
 			function serialize() which gets all the data from the form
 			we submit it to send_email.php */
-			$.post("sendmail.php", $("#contact-form").serialize(), function (result) {
+			$.post("controller/send_mail.php", $("#contact-form").serialize(), function (result) {
+				alert(result);
 				//and after the ajax request ends we check the text returned
 				if (result == 'sent') {
 					//if the mail is sent remove the submit paragraph
