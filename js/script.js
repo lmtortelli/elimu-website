@@ -85,7 +85,6 @@ jQuery(function ($) { "use strict";
 
 
 	$('#contact-submit').click(function (e) {
-		alert("Comecou");
 		//stop the form from being submitted
 		e.preventDefault();
 
@@ -125,23 +124,21 @@ jQuery(function ($) { "use strict";
 			$('#message').css("border-color", "#666");
 		}
 
-
 		//now when the validation is done we check if the error variable is false (no errors)
 		if (error == false) {
 			//disable the submit button to avoid spamming
 			//and change the button text to Sending...
 			$('#contact-submit').attr({
 				'disabled': 'false',
-				'value': 'Sending...'
+				'value': 'Enviando...'
 			});
 
 			/* using the jquery's post(ajax) function and a lifesaver
 			function serialize() which gets all the data from the form
 			we submit it to send_email.php */
 			$.post("controller/send_mail.php", $("#contact-form").serialize(), function (result) {
-				alert(result);
 				//and after the ajax request ends we check the text returned
-				if (result == 'sent') {
+				if (result==1) {
 					//if the mail is sent remove the submit paragraph
 					$('#cf-submit').remove();
 					//and show the mail success div with fadeIn
