@@ -1,0 +1,15 @@
+<article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+        <div class="post-block">
+            <div class="media-wrapper">
+                <img src="images/blog/post-2.jpg" alt="amazing caves coverimage" class="img-responsive">
+            </div>
+
+            <div class="content">
+                <h3>
+                    <a href="">Presença da Elimu Social no Mestrado de Educação do IF-Sul Campus CAVG</a>
+                </h3>
+                <p>Hoje a Elimu Social, através de um dos seus integrantes, foi convidada para palestrar no Programa de Pós-graduação em Ciências e Tecnologias na Educação (PPGCITED)...</p>
+                <a class="btn btn-transparent" href="https://elimusocial.wordpress.com/2018/04/04/presenca-da-elimu-social-no-mestrado-de-educacao-do-if-sul-campus-cavg/">Leia mais</a>
+            </div>
+        </div>
+    </article>

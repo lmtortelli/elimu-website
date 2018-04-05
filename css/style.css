@@ -847,28 +847,41 @@ a:focus, a:hover {
 
 .contact-form {
   margin-bottom: 60px;
+  margin-left:30px;
 }
 
 .contact-form .form-control {
   background-color: transparent;
+  font-size: 20px;
   border: 1px solid rgba(236, 239, 241, 0.07);
   height: 45px;
 }
 
 .contact-form textarea.form-control {
   padding: 10px;
+  font-size: 20px;
   height: 120px;
 }
+
+.contact-form input,
+.contact-form textarea,
+#contact-submit {
+  border: 2px solid #245353;
+  font-size:20px;
+}
+
 
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-  border-color: #57cbcc;
+  border: 2px solid #245353;
+  font-size:20px;
+  color:rgb(255, 255, 255);
 }
 
 #contact-submit {
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  border: 2px solid rgba(236, 239, 241, 0.07);
+  background: #4aaeaf;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -883,8 +896,17 @@ a:focus, a:hover {
   font-size: 16px;  
 }
 
+.contact-info{
+  margin-bottom: 25px;
+  margin-left: -4 0px;
+  margin-top:-70px;
+  font-size: 16px;  
+}
+
 .con-info {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  align:center;
+
 }
 
 .con-info span {
